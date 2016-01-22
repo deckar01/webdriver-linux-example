@@ -1,0 +1,28 @@
+{
+  "name": "webdriver-linux-example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deckar01/webdriver-linux-example.git"
+  },
+  "version": "0.0.1",
+  "description": "The minimum configuration required to get selenium-webdriver running headless on Linux",
+  "main": "index.js",
+  "scripts": {
+    "example": "xvfb-run --server-num=11 nodejs index.js"
+  },
+  "keywords": [
+    "example",
+    "selenium",
+    "node",
+    "webdriver",
+    "linux",
+    "browser",
+    "headless",
+    "xvfb"
+  ],
+  "author": "Jared Deckard <jared.deckard@gmail.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "selenium-webdriver": "~2.48.2"
+  }
+}
